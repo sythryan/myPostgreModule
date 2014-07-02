@@ -1,0 +1,81 @@
+[0m[[0mdebug[0m] [0mInvalidating /home/syth/.ivy2/cache/org.mongodb/casbah-core_2.10/jars/casbah-core_2.10-2.7.2.jar: could not find class com.mongodb.casbah.Imports$ on the classpath.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/syth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar: class scala.Array now provided by /home/syth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/syth/scalaInAction/chap3Mongo/lib/mongo-java-driver-2.10.1.jar: could not find class com.mongodb.Mongo on the classpath.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/Role.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/MyScript.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/main.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/classPractice.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/DB.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/syth/postgreModule/src/main/scala/postgreExperimenting.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set(/home/syth/.ivy2/cache/org.mongodb/casbah-core_2.10/jars/casbah-core_2.10-2.7.2.jar, /home/syth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar, /home/syth/scalaInAction/chap3Mongo/lib/mongo-java-driver-2.10.1.jar)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/Role.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/MyScript.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/main.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/classPractice.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/DB.scala, /home/syth/postgreModule/src/main/scala/postgreExperimenting.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/Role.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/MyScript.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/main.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/classPractice.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/DB.scala)[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/Role.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/MyScript.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/main.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/classPractice.scala, /home/syth/scalaInAction/chap3Mongo/src/main/scala/DB.scala, /home/syth/postgreModule/src/main/scala/postgreExperimenting.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (6) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/syth/postgreModule/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.0[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.10.0  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_e0f7c06b[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/syth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/syth/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/xsbti/interface-0.13.5.jar:/home/syth/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/compiler-interface-src/compiler-interface-src-0.13.5.jar:/home/syth/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.0.jar:/home/syth/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar:/home/syth/.ivy2/cache/org.scala-lang/jline/jars/jline-2.10.0.jar:/home/syth/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.4.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_76e4f47f/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.0[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5f1d6415, interfacing (CompilerInterface) with Scala compiler version 2.10.0[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/syth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/syth/postgreModule/target/scala-2.10/classes:/home/syth/.ivy2/cache/org.squeryl/squeryl_2.10/jars/squeryl_2.10-0.9.5-6.jar:/home/syth/.ivy2/cache/cglib/cglib-nodep/jars/cglib-nodep-2.2.jar:/home/syth/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.10.0.jar:/home/syth/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.0.jar:/home/syth/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar:/home/syth/.ivy2/cache/postgresql/postgresql/jars/postgresql-8.4-701.jdbc4.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 32.951963446 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/classPractice.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/classPractice.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/syth/postgreModule/src/main/scala/postgreExperimenting.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/syth/postgreModule/src/main/scala/postgreExperimenting.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/Role.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/Role.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/DB.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/DB.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/MyScript.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/syth/scalaInAction/chap3Mongo/src/main/scala/MyScript.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
