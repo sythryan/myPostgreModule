@@ -1,9 +1,6 @@
 import org.squeryl.PrimitiveTypeMode._
 import org.squeryl.Schema
 import org.squeryl.annotations.Column
-import org.squeryl.Session
-import org.squeryl.SessionFactory
-import org.squeryl.adapters.PostgreSqlAdapter
 import java.util.Calendar
 
 case class Email(@Column("sender") sender: String, 
